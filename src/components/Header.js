@@ -3,6 +3,8 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 // components
 import Logo from "./Logo";
+import LocationSearch from "./LocationSearch";
+
 import { flexBetweenCenter, dFlex } from "../themse/commonStyles";
 
 const Header = () => {
@@ -23,6 +25,7 @@ const Header = () => {
           }}
         >
           <Logo />
+          <LocationSearch />
         </Box>
       </Container>
     </Box>
